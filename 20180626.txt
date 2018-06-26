@@ -1,0 +1,28 @@
+●オートレイアウト
+相対的に位置を大きさを決めるルール
+
+●ポイント
+　上から左から順につけていく
+
+●StackViewがおすすめ
+　グルーピングみたいなもの
+　設定だけでStackViewの中のオートレイアウトがだいたいつくので楽
+　Spacingを利用しよう
+
+
+●画像はAspect比が大事
+　aspect rasioを決めて
+  widthかheightを比で決めるといい感じ
+　
+　その時のwidthと今作っているiPhoneの幅をメモ
+　一旦Equal widthにしてメモしたwidthをメモ
+
+
+●他のViewからの関係をこれを使えばOK
+　leading,trairing,centerX,width/top,bottom,centerY,heght/aspect raitio を使って場所と幅が決まればOK
+
+　例 
+   壁からの距離を決める
+　例
+	CenterXとの関係とwidthでもOK
+
